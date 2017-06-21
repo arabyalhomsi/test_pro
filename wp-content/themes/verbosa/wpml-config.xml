@@ -1,0 +1,9 @@
+<wpml-config> 
+    <admin-texts>
+        <key name="verbosa_settings">
+			<key name="verbosa_copyright" />
+			<key name="verbosa_excerptdots" />
+			<key name="verbosa_excerptcont" />
+        </key>
+    </admin-texts>  
+</wpml-config>
