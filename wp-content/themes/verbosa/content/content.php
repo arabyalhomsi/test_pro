@@ -9,7 +9,7 @@ $verbosas = cryout_get_option( array('verbosa_excerptarchive', 'verbosa_excerpts
 
 ?><?php cryout_before_article_hook(); ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); cryout_schema_microdata('blogpost'); ?>>
+<article data-wow-duration="1s" id="post-<?php the_ID(); ?>" <?php post_class(); cryout_schema_microdata('blogpost'); ?>>
 	<?php cryout_featured_hook(); ?>
 
 	<header class="entry-header">

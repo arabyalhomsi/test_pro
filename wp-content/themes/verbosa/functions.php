@@ -21,3 +21,18 @@ require_once( get_template_directory() . "/includes/loop.php" );        // Loop 
 require_once( get_template_directory() . "/includes/comments.php" );    // Comment functions
 require_once( get_template_directory() . "/includes/core.php" );        // Core functions
 require_once( get_template_directory() . "/includes/hooks.php" );       // Hooks
+
+// Arabi
+
+function post_class_edit($classes) {
+	if (!is_single()) {
+		array_push($classes, "wow fadeInUp");
+		return $classes;
+	}
+
+	return $classes;
+	
+}
+
+
+add_filter('post_class', 'post_class_edit');
