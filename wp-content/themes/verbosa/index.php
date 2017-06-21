@@ -13,6 +13,7 @@ get_header(); ?>
 <div id="container" class="<?php echo verbosa_get_layout_class(); ?>">
 	<?php verbosa_header_section() ?>
 	<main id="main" role="main" class="main">
+        <?php masterslider(1); ?>
 		<?php cryout_before_content_hook(); ?>
 
 		<?php if ( have_posts() ) : ?>
