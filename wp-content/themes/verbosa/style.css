@@ -2899,4 +2899,23 @@ a.continue-reading-link:hover i {
 /* FIN! */
 
 /* project week code - dave */
+.main2{
+    width: 909px;
+    float: right;
+    max-width: 100%;
+    
+}
+.master-slider-parent{
+    margin-left:0;
+    margin-right:0;
+}
 
+.ms-inner-controls-cont{
+    max-width: 100%;
+}
+.master-slider-parent.msl{
+     max-width: 100% !important;  
+}
+.ms-inner-controls-cont{
+    max-width: 100% !important;
+}

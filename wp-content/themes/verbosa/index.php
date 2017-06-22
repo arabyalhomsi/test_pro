@@ -10,11 +10,20 @@
  * @package Verbosa
  */
 get_header(); ?>
+ 
 <div id="container" class="<?php echo verbosa_get_layout_class(); ?>">
 	<?php verbosa_header_section() ?>
-	<main id="main" role="main" class="main">
-        <?php masterslider(1); ?>
-		<?php cryout_before_content_hook(); ?>
+    
+    <div class="main2">
+
+<?php masterslider(1); ?>
+    
+ </div>  
+    
+    
+    
+    <main id="main" role="main" class="main">
+       <?php cryout_before_content_hook(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
@@ -25,7 +34,7 @@ get_header(); ?>
 				endwhile;
 				?>
 			</div> <!-- content-masonry -->
-			<?php verbosa_pagination(); ?>
+         <?php verbosa_pagination(); ?>
 
 		<?php else :
 			get_template_part( 'content/content', 'notfound' );
