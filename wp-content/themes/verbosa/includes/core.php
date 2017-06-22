@@ -149,7 +149,7 @@ function verbosa_header_section() { ?>
 			<?php cryout_branding_hook();?>
 			<?php cryout_headerimage_hook(); ?>
 			<?php get_sidebar('left'); ?>
-				<a id="nav-toggle"><span>&nbsp;</span></a>
+				<a id="sidebar-nav-toggle"><span>&nbsp;</span></a>
 				<nav id="access" role="navigation"  aria-label="Primary Menu" <?php cryout_schema_microdata('menu'); ?>>
 				<h3 class="widget-title menu-title"><span><?php _e("Menu", "verbosa");?></span></h3>
 					<?php cryout_access_hook();?>

@@ -2900,7 +2900,7 @@ a.continue-reading-link:hover i {
 
 /* project week code - dave */
 .main2{
-    width: 909px;
+    width: calc(97% - 440px);
     float: right;
     max-width: 100%;
     
@@ -2918,4 +2918,25 @@ a.continue-reading-link:hover i {
 }
 .ms-inner-controls-cont{
     max-width: 100% !important;
+}
+
+
+/* responsivity adjustments (arabi alhumsi) */
+
+
+@media (max-width: 1024px) {
+	
+	.widget-area.sidey {
+		display: block;
+		width: 100%;
+		margin:0;
+		float: none;
+	}
+	.widget-title span {
+		float: none;
+	}
+	.main2 {
+		margin-bottom: 3em;
+		width: 100%;
+	}
 }
