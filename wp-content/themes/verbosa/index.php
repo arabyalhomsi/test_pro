@@ -14,11 +14,12 @@ get_header(); ?>
 <div id="container" class="<?php echo verbosa_get_layout_class(); ?>">
 	<?php verbosa_header_section() ?>
     
-    <div class="main2">
+	<div class="main2">
 
-<?php masterslider(1); ?>
-    
- </div>  
+		<?php // masterslider(3); ?>
+
+		<?php echo do_shortcode("[metaslider id=48]"); ?>
+	</div>  
     
     
     
