@@ -19,5 +19,11 @@
 	</aside><!-- #colophon -->
 
 <?php wp_footer(); ?>
+
+<!-- Arabi -->
+<script>
+	new WOW().init();
+</script>
+
 </body>
 </html>
