@@ -2923,6 +2923,10 @@ a.continue-reading-link:hover i {
 
 /* responsivity adjustments (arabi alhumsi) */
 
+#branding .identity {
+	margin-bottom: 3em;
+}
+
 
 @media (max-width: 1024px) {
 	
